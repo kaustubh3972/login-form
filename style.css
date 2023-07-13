@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.container {
+	/* color: white;
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	letter-spacing: 2px;
+	flex-direction: column;
+	justify-content: center; */
+	/*  */
+	color: white;
+	width: 25%;
+	display: flex;
+	margin: auto;
+	letter-spacing: 2px;
+	flex-direction: column;
+	margin-top: 5%;
+	justify-content: center;
+}
+.container h1 {
+	font-family: "Righteous", cursive;
+	font-size: 55px;
+	border-bottom: 5px solid white;
+	padding: 15px;
+	display: inline-block;
+	/* margin: 10px; */
+	margin-bottom: 25px;
+}
+.box {
+	width: fit-content;
+	/* border: 2px solid red; */
+	margin: 25px auto;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+.box i {
+	width: 25px;
+	/* float: left; */
+	text-align: center;
+}
+.box input {
+	/* width: 75%; */
+	background: none;
+	margin: 0px 10px;
+	font-size: 22px;
+	border: none;
+	outline: none;
+	color: white;
+}
+::placeholder {
+	color: white;
+	opacity: 0.5;
+}
+.btn {
+	cursor: pointer;
+	outline: none;
+	margin: 0px 35%;
+	border: 2px solid purple;
+	border-radius: 25px;
+	padding: 8px 12px;
+	font-size: 20px;
+	color: white;
+	width: 35%;
+	background: none;
+	font-weight: bold;
+}
+.btn:hover {
+	background-color: white;
+	color: purple;
+	opacity: 0.6;
+}
